@@ -1,0 +1,11 @@
+
+syntax = "proto3"; // PB协议版本
+
+package protobuf;
+//option java_package = "com.flea";
+option java_outer_classname = "Return";
+message ReturnVO {
+    string code = 1;
+    string message = 2;
+    string data = 3;
+}
